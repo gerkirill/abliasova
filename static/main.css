@@ -19,8 +19,8 @@ header {
   font-size:10em;
 }
 
-header > p {
-  margin: 2px;
+header a {
+ font-size:0.2em;
 }
 
 main {
