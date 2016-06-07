@@ -7,22 +7,25 @@
   <meta name="keywords" content="Node.js, JavaScript, ES6, OpenShift, es6, paas">
   <meta name="author" content="Ionut-Cristian Florescu">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <link href="main.css" rel="stylesheet">
+     <link href="main.css" rel="stylesheet">
 </head>
 <body>
   <header>
-      <p>COMING SOON...<p>
+    Coming soon
       <center>
-          <a href="mailto:victoriaablyasova@gmail.com">
-              victoriaablyasova@gmail.com
-          </a>
-    </center>
-  </header>
+        <a id="responsive_headline" href="mailto:victoriaablyasova@gmail.com">
+          victoriaablyasova@gmail.com
+        </a>
+      </center>
+   </header>
   <script src="https://cdn.jsdelivr.net/riot/2.4.1/riot+compiler.min.js"></script>
   <script src="https://cdn.jsdelivr.net/superagent/0.18.0/superagent.min.js"></script>
   <script type="riot/tag" src="info.tag"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="jquery.fittext.js"></script>
   <script>
-    riot.mount('*')
+    jQuery("header").fitText();
+      riot.mount('*');
   </script>
 </body>
 </html>
